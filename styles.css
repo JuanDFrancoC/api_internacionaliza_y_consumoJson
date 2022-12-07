@@ -1,0 +1,17 @@
+div#app {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+.card {
+    border: 1px solid #1f5a00;
+    border-radius: 10px;
+}
+.card:hover{
+    background: #1f5a00;
+    color: white;
+}
